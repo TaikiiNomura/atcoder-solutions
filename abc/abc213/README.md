@@ -1,0 +1,2 @@
+- A - Bitwise Exclusive Or
+    - xorの計算は^
