@@ -1,0 +1,4 @@
+- A - Lexicographic Order 
+    - in
+    - out
+    - if
