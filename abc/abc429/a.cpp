@@ -6,8 +6,8 @@ void solve()
     int n,m; cin>>n>>m;
     rep(i,n)
     {
-        if(i+1<m)cout<<"OK\n";
-        else cout<<"Too many requests\n";
+        if(i+1<=m)cout<<"OK\n";
+        else cout<<"Too Many Requests\n";
     }
 }
 int main()
@@ -15,6 +15,9 @@ int main()
     cin.tie(nullptr);
     ios::sync_with_stdio(false);
     int t = 1;
-    while(t--) {solve();}
+    while(t--) 
+    {
+        solve();
+    }
     return 0;
 }

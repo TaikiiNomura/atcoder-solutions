@@ -7,7 +7,7 @@ void solve()
     // Ocelot Serval Lynx
     string a,b; cin>>a>>b;
     map<string,int> mp={{"Ocelot",0},{"Serval",1},{"Lynx",2}};
-    if(mp[a]>mp[b]) cout<<"Yes\n";
+    if(mp[a]>=mp[b]) cout<<"Yes\n";
     else cout<<"No\n";
 }
 int main()
