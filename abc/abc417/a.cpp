@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int N,A,B;
+    string S;
+    cin>>N>>A>>B>>S;
+
+    for(int i=A;i<=B;i++)cout<<S[i];
+    cout<<endl;
+    return 0;
+}
